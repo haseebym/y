@@ -1,0 +1,11 @@
+<div class="footer-logo">
+  <img src="images/logo.png">
+  <button id="langBtn">تغيير اللغة</button>
+</div>
+
+<script>
+  const langBtn = document.getElementById('langBtn');
+  langBtn.addEventListener('click', function() {
+    document.documentElement.lang = 'ar';
+  });
+</script>

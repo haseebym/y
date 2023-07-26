@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>تغيير اللغة</title>
+</head>
+
+<body>
+    <div class="footer-logo">
+        <img src="images/logo.png">
+        <button id="langBtn">تغيير اللغة</button>
+    </div>
+
+    <script>
+        const langBtn = document.getElementById('langBtn');
+        langBtn.addEventListener('click', function() {
+            document.documentElement.lang = 'ar';
+        });
+    </script>
+</body>
+
+</html>
